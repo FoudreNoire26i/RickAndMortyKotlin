@@ -1,9 +1,9 @@
-package com.example.rickandmortykotlin
+package com.example.rickandmortykotlin.dataclass
 
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-data class Result(
+data class Character(
     @SerializedName("created")
     @Expose
     val created: String,
